@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.welcome{
+  color: #604cc1;
+
+font-style: oblique;
+}
