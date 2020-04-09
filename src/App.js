@@ -4,16 +4,12 @@ import './App.css';
 import Greet from "./components/Greet";
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Asish" Alias = "Asi">This isthe child element</Greet>
-      <Greet name="Anumol" Alias = "Anu"><button>Child</button></Greet>
-      <Welcome name="Asish"/>
-      <Welcome name="Anu"/>
-      {/* <Hello /> */}
-     
+   <Message/>
     </div>
   );
 }
